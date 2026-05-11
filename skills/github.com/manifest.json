@@ -1,0 +1,18 @@
+{
+  "provider": "github.com",
+  "integration_name": "github.com",
+  "domains": [
+    "github.com"
+  ],
+  "skill_name": "github.com/integration",
+  "status": "draft",
+  "source": {
+    "type": "daptin_integration",
+    "integration_name": "github.com"
+  },
+  "test_prompts": [
+    "list my GitHub repositories",
+    "create an issue in owner/repo",
+    "open a pull request changing README.md"
+  ]
+}

@@ -1,0 +1,28 @@
+{
+  "skills": [
+    {
+      "name": "100xbot/skill-maintainer",
+      "description": "Maintain the official 100xBot skills repository in the supported package format.",
+      "provider": "100xbot.skill-maintainer",
+      "integration_name": "github.com",
+      "domains": [
+        "github.com"
+      ],
+      "skill_path": "skills/100xbot.skill-maintainer/SKILL.md",
+      "manifest_path": "skills/100xbot.skill-maintainer/manifest.json",
+      "updated_at": "2026-05-11T00:00:00.000Z"
+    },
+    {
+      "name": "github.com/integration",
+      "description": "Use the GitHub API integration for repositories, issues, pull requests, branches, and file changes.",
+      "provider": "github.com",
+      "integration_name": "github.com",
+      "domains": [
+        "github.com"
+      ],
+      "skill_path": "skills/github.com/SKILL.md",
+      "manifest_path": "skills/github.com/manifest.json",
+      "updated_at": "2026-05-11T00:00:00.000Z"
+    }
+  ]
+}

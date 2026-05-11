@@ -1,0 +1,18 @@
+{
+  "provider": "100xbot.skill-maintainer",
+  "integration_name": "github.com",
+  "domains": [
+    "github.com"
+  ],
+  "skill_name": "100xbot/skill-maintainer",
+  "status": "draft",
+  "source": {
+    "type": "skill_repository",
+    "repo": "100x-bot/skills"
+  },
+  "test_prompts": [
+    "create a new provider integration skill for asana.com",
+    "migrate skills/github.com/repo-maintenance.json to the supported skill package format",
+    "update the catalog entry for airtable.com"
+  ]
+}

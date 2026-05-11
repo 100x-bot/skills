@@ -1,0 +1,19 @@
+{
+  "prompts": [
+    {
+      "name": "list-repositories",
+      "prompt": "List my GitHub repositories.",
+      "expected_behavior": "Search github.com operations, describe the selected repository listing operation, and execute through the integration capability."
+    },
+    {
+      "name": "create-issue",
+      "prompt": "Create an issue in owner/repo titled Bug report.",
+      "expected_behavior": "Use github.com integration operation discovery and execution. Do not ask for token ids."
+    },
+    {
+      "name": "update-file-pr",
+      "prompt": "Update README.md in owner/repo and open a pull request.",
+      "expected_behavior": "Read current file/repo state, create or use a branch, write through the integration, and create a pull request."
+    }
+  ]
+}

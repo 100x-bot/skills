@@ -1,0 +1,19 @@
+{
+  "prompts": [
+    {
+      "name": "create-provider-skill",
+      "prompt": "Create a provider integration skill for asana.com.",
+      "expected_behavior": "Plan a package at skills/asana.com with SKILL.md, manifest.json, tests.json, and a catalog.json entry."
+    },
+    {
+      "name": "migrate-json-skill",
+      "prompt": "Migrate skills/github.com/repo-maintenance.json to the current skills repo format.",
+      "expected_behavior": "Convert the JSON skill into SKILL.md and manifest.json, update catalog.json, and remove the old JSON file."
+    },
+    {
+      "name": "reject-adhoc-json",
+      "prompt": "Add skills/airtable.com/base-management.json.",
+      "expected_behavior": "Do not create an ad-hoc JSON skill file. Create or update skills/airtable.com/SKILL.md and manifest.json instead."
+    }
+  ]
+}
