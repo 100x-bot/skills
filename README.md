@@ -35,7 +35,7 @@ Do not add ad-hoc skill JSON files such as `skills/github.com/repo-maintenance.j
 
 ## Provider Integration Skills
 
-Provider integration skills should prefer Daptin's `integration` capability over browser automation:
+Provider integration skills should prefer the `integration` capability over browser automation:
 
 ```js
 integration({
@@ -65,7 +65,7 @@ integration({
 })
 ```
 
-The agent should not ask for OAuth token ids, credential ids, or account selectors. Daptin resolves the connected account internally.
+The agent should not ask for OAuth token ids, credential ids, or account selectors. The integration runtime resolves the connected account internally.
 
 ## Contributing
 

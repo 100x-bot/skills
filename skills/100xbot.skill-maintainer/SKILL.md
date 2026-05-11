@@ -64,7 +64,7 @@ When creating or updating a provider integration skill:
 4. Update the matching root `catalog.json` entry.
 5. Include test prompts that cover read, write, and auth-required paths when applicable.
 
-The skill content must teach the runtime agent to use Daptin integration discovery and execution:
+The skill content must teach the runtime agent to use integration discovery and execution:
 
 ```js
 integration({
@@ -94,7 +94,7 @@ integration({
 })
 ```
 
-Do not expose OAuth token ids, credential ids, or account selection to the model. Daptin resolves the user's connected account internally.
+Do not expose OAuth token ids, credential ids, or account selection to the model. The integration runtime resolves the user's connected account internally.
 
 ## Publishing Flow
 
@@ -103,7 +103,7 @@ Use `skill_project` for official skill repo changes:
 1. Run `skill_project` with `action: "plan"` to preview generated `SKILL.md`, `manifest.json`, and `catalog.json` changes.
 2. Inspect the planned files for format drift and outdated tool names.
 3. Publish with `skill_project` using `action: "publish_pr"` unless the user explicitly asks for a direct repository update.
-4. Authenticated GitHub writes must go through Daptin's `github.com` integration. Public reads may use GitHub directly.
+4. Authenticated GitHub writes must go through the `github.com` integration. Public reads may use GitHub directly.
 
 ## Migration Rule
 
